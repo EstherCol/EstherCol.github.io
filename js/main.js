@@ -5,8 +5,10 @@ new WOW().init();
   		$(window).scroll(function() {
   			if( $(window).scrollTop() ) {
   				$('.header__nav').addClass('fixed');
+  				$('.header__title').addClass('mt97');
   			}else {
   				$('.header__nav').removeClass('fixed');
+  				$('.header__title').removeClass('mt97');
   			}
   		});
 		// const navbar = $('.header__nav');
