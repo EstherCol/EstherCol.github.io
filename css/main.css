@@ -168,7 +168,7 @@ input[type="radio"].visually-hidden {
   border-radius: 100px; }
 
 .header {
-  height: 1000vh;
+  height: 100vh;
   overflow: hidden;
   background: #eff1f3 url(../images/banner_background.jpg) no-repeat center;
   background-size: cover; }
