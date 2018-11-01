@@ -1,4 +1,8 @@
 new WOW().init();
+document.addEventListener('scroll', function() {
+	if (document.documentElement.scrollTop + window.innerHeight >= document.documentElement.offsetHeight)
+		alert('Конец страницы');
+});
   	$('document').ready(function () {
 
   		// sticky
