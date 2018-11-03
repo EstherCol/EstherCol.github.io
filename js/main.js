@@ -1,14 +1,13 @@
+$(function() {
+   $('.lazy').Lazy();
+});
+
 $(document).ready(function(){
    $(".owl-carousel").owlCarousel({
       items:1,
       loop:true,
       dots: true
    });
-
-   $(function() {
-      $('.lazy').Lazy();
-   });
-
    // header gamburger toggle
    $('.header__box-gamburger').click(function () {
       $(this).toggleClass('header__box-gamburger--active');
