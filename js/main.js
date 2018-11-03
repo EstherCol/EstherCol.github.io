@@ -5,24 +5,9 @@ $(document).ready(function(){
       dots: true
    });
 
-
-   // sticky header for <= tablets
-   // $( window ).scroll(function() {
-   //    let query = window.matchMedia('(max-width: 768px)');
-   //
-   //    if (query.matches) {
-   //       const header = $('.header');
-   //
-   //       if($(window).scrollTop()) {
-  	// 			header.addClass('fixed');
-   //          $('.nav-category').css({'marginTop' : '129.5px'});
-  	// 		}else {
-  	// 			header.removeClass('fixed');
-   //          $('.nav-category').css({'marginTop' : '0'});
-  	// 		}
-   //    }
-   // });
-
+   $(function() {
+      $('.lazy').Lazy();
+   });
 
    // header gamburger toggle
    $('.header__box-gamburger').click(function () {
