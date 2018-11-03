@@ -12,6 +12,24 @@ $(document).ready(function(){
       $('.sidebar').toggle();
    });
 
+   $('.nav-category__more').click(function () {
+      if ($('.nav-category__box').height() > 82) {
+         $('.nav-category__box').animate({
+            'height' : '81px'
+         });
+      }else {
+         $('.nav-category__box').animate({
+            'height' : $('.nav-category__list').height()
+         });
+      }
+
+   });
+
+   $('.sidebar__dropdown').click(function () {
+      // this.css('borderTop', '2px solid #13100e');
+      $('.sidebar__dropdown ul').slideToggle();
+   });
+
    // main info toggle
    $('.info__btn-show-all').click(function () {
       const content = $('.info__toggle');
