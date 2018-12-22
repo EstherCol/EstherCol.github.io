@@ -7,11 +7,12 @@
 }
 .field {
     padding: 20px;
+    padding-top: 0;
     display: inline-block;
     margin-top: 40px;
 }
 .field:first-child {
-    margin-right: 100px;
+    margin-right: 70px;
 }
 .field > .row:last-child {
     border-bottom: 1px solid #5252FF;
