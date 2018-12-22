@@ -1,0 +1,75 @@
+.container {
+    width: 100%;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+.field {
+    padding: 20px;
+    display: inline-block;
+    margin-top: 40px;
+}
+.field:first-child {
+    margin-right: 100px;
+}
+.field > .row:last-child {
+    border-bottom: 1px solid #5252FF;
+}
+.row {
+    position: relative;
+    height: 50px;
+    /* display: flex; */
+    border-top: 1px solid #5252FF;
+    border-left: 1px solid #5252FF;
+    
+}
+
+.row-letter,
+.cell-number {
+    position: absolute;
+    padding: 20px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    height: 50px;
+}
+.cell-number {
+    left: 50%;
+    transform: translateX(-50%);
+}
+.row-letter {
+    right: 100%;
+    transform: translateY(-50%);
+    top: 50%;
+
+}
+.ship-row {
+    /* height: 50px; */
+}
+.ship {
+    height: 50px;
+    display: inline-block;
+    margin: 20px;
+    background-color: #eee;
+}
+.part-of-ship {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #ccc;
+    display: inline-block;
+}
+.cell {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-right: 1px solid #5252FF;
+    /* border: 1px solid #5252FF; */
+}
+.cell:hover {
+    background-color: #9E9EFF
+}
