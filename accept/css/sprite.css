@@ -1,0 +1,151 @@
+/*
+Icon classes can be used entirely standalone. They are named after their original file names.
+
+Example usage in HTML:
+
+`display: block` sprite:
+<div class="icon-home"></div>
+
+To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+
+// CSS
+
+
+// HTML
+<i class="icon icon-home"></i>
+*/
+.icon {
+  display: inline-block;
+}
+.icon-1c {
+  background-image: url(../img/partners-spr.png);
+  background-position: 0px -101px;
+  width: 230px;
+  height: 45px;
+}
+.icon-1c:hover {
+  background-image: url(../img/hover-spr.png);
+  background-position: 0px -101px;
+}
+.icon-2gis {
+  background-image: url(../img/partners-spr.png);
+  background-position: -282px -27px;
+  width: 108px;
+  height: 50px;
+}
+.icon-2gis:hover {
+  background-image: url(../img/hover-spr.png);
+  background-position: -282px -27px;
+}
+.icon-kawasaki {
+  background-image: url(../img/partners-spr.png);
+  background-position: -282px 0px;
+  width: 230px;
+  height: 27px;
+}
+.icon-kawasaki:hover {
+  background-image: url(../img/hover-spr.png);
+  background-position: -282px 0px;
+}
+.icon-med {
+  background-image: url(../img/partners-spr.png);
+  background-position: 0px -200px;
+  width: 113px;
+  height: 75px;
+}
+.icon-med:hover {
+  background-image: url(../img/hover-spr.png);
+  background-position: 0px -200px;
+}
+.icon-pc {
+  background-image: url(../img/partners-spr.png);
+  background-position: 0px 0px;
+  width: 110px;
+  height: 101px;
+}
+.icon-pc:hover {
+  background-image: url(../img/hover-spr.png);
+  background-position: 0px 0px;
+}
+.icon-smitra {
+  background-image: url(../img/partners-spr.png);
+  background-position: -110px -61px;
+  width: 167px;
+  height: 39px;
+}
+.icon-smitra:hover {
+  background-image: url(../img/hover-spr.png);
+  background-position: -110px -61px;
+}
+.icon-trend {
+  background-image: url(../img/partners-spr.png);
+  background-position: -110px 0px;
+  width: 172px;
+  height: 61px;
+}
+.icon-trend:hover {
+  background-image: url(../img/hover-spr.png);
+  background-position: -110px 0px;
+}
+.icon-xarakiri {
+  background-image: url(../img/partners-spr.png);
+  background-position: 0px -146px;
+  width: 178px;
+  height: 54px;
+}
+.icon-xarakiri:hover {
+  background-image: url(../img/hover-spr.png);
+  background-position: 0px -146px;
+}
+
+
+/* teech */
+.icon-cerebro-target {
+  background-image: url(../img/tech-spr.png);
+  background-position: 0px -87px;
+  width: 120px;
+  height: 46px;
+}
+.icon-facebook-ads {
+  background-image: url(../img/tech-spr.png);
+  background-position: 0px -133px;
+  width: 121px;
+  height: 39px;
+}
+.icon-google-abs {
+  background-image: url(../img/tech-spr.png);
+  background-position: -201px 0px;
+  width: 64px;
+  height: 80px;
+}
+.icon-google-analytics {
+  background-image: url(../img/tech-spr.png);
+  background-position: 0px -228px;
+  width: 143px;
+  height: 20px;
+}
+.icon-pr-cy {
+  background-image: url(../img/tech-spr.png);
+  background-position: -121px -133px;
+  width: 113px;
+  height: 34px;
+}
+.icon-wordstat {
+  background-image: url(../img/tech-spr.png);
+  background-position: 0px 0px;
+  width: 201px;
+  height: 87px;
+}
+.icon-ya-direct {
+  background-image: url(../img/tech-spr.png);
+  background-position: 0px -172px;
+  width: 151px;
+  height: 30px;
+}
+.icon-ya-metrika {
+  background-image: url(../img/tech-spr.png);
+  background-position: 0px -202px;
+  width: 148px;
+  height: 26px;
+}
+
