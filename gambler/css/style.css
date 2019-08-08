@@ -570,9 +570,20 @@ h5 {
       justify-content: space-between;
       align-items: center; }
     .header .nav {
-      display: block; }
+      display: block;
+      position: static;
+      width: auto;
+      height: auto;
+      top: auto;
+      right: auto;
+      bottom: auto;
+      left: auto;
+      background-color: #fff;
+      padding: 0;
+      overflow: visible; }
       .header .nav ul {
-        display: flex; }
+        display: flex;
+        flex-wrap: wrap; }
     .header .sign-in {
       text-align: right;
       margin-top: 0; }
