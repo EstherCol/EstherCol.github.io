@@ -1,0 +1,1623 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <div class=" header__top">
+                <button class="toggle-site-sec humb-js">
+                    <span class="toggle-site-sec__hamburger hamburger"><span class="hamburger__item"></span></span>Разделы
+                </button>
+                <div class="header__mainMenu mainMenu">
+                    <div class="mainMenu__wrapper">
+                        <div class="mainMenu__container">
+                            <div class="mainMenu__col">
+                                <ul class="mainMenu__list">
+                                    <li class="mainMenu__item">
+                                        <svg class="icons star">
+                                            <use xlink:href="img/spritesSymbol.svg#star"></use>
+                                        </svg> <a href="#" class="mainMenu__link">Рейтинг казино</a>
+                                    </li>
+                                    <li class="mainMenu__item">
+                                        <svg class="icons usertyping">
+                                            <use xlink:href="img/spritesSymbol.svg#usertyping"></use>
+                                        </svg> <a href="#" class="mainMenu__link">Жалобы</a>
+                                    </li>
+                                    <li class="mainMenu__item">
+                                        <svg class="icons smallthumbnails">
+                                            <use xlink:href="img/spritesSymbol.svg#smallthumbnails"></use>
+                                        </svg> <a href="#" class="mainMenu__link">Бонусы</a>
+                                    </li>
+                                    <li class="mainMenu__item">
+                                        <svg class="icons play">
+                                            <use xlink:href="img/spritesSymbol.svg#play"></use>
+                                        </svg> <a href="#" class="mainMenu__link">Игровые автоматы</a>
+                                    </li>
+                                    <li class="mainMenu__item">
+                                        <svg class="icons chat">
+                                            <use xlink:href="img/spritesSymbol.svg#chat"></use>
+                                        </svg> <a href="#" class="mainMenu__link">Отзывы игроков</a>
+                                    </li>
+                                    <li class="mainMenu__item">
+                                        <svg class="icons gopro">
+                                            <use xlink:href="img/spritesSymbol.svg#gopro"></use>
+                                        </svg> <a href="#" class="mainMenu__link">Стримы</a>
+                                    </li>
+                                    <li class="mainMenu__item">
+                                        <svg class="icons video">
+                                            <use xlink:href="img/spritesSymbol.svg#video"></use>
+                                        </svg> <a href="#" class="mainMenu__link">Видео</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="mainMenu__col">
+                                <ul class="mainMenu__list">
+                                    <li class="mainMenu__item">
+                                        <svg class="icons list">
+                                            <use xlink:href="img/spritesSymbol.svg#list"></use>
+                                        </svg> <a href="#" class="mainMenu__link">Новости</a>
+                                    </li>
+                                    <li class="mainMenu__item">
+                                        <svg class="icons edit">
+                                            <use xlink:href="img/spritesSymbol.svg#edit"></use>
+                                        </svg> <a href="#" class="mainMenu__link">Блог</a>
+                                    </li>
+                                    <li class="mainMenu__item">
+                                        <svg class="icons certificate">
+                                            <use xlink:href="img/spritesSymbol.svg#certificate"></use>
+                                        </svg> <a href="#" class="mainMenu__link">Сертиф. казино</a>
+                                    </li>
+                                    <li class="mainMenu__item">
+                                        <svg class="icons bulletedlist">
+                                            <use xlink:href="img/spritesSymbol.svg#bulletedlist"></use>
+                                        </svg> <a href="#" class="mainMenu__link">Новые казино</a>
+                                    </li>
+                                    <li class="mainMenu__item">
+                                        <svg class="icons warning">
+                                            <use xlink:href="img/spritesSymbol.svg#warning"></use>
+                                        </svg> <a href="#" class="mainMenu__link">Черный список</a>
+                                    </li>
+                                    <li class="mainMenu__item">
+                                        <svg class="icons standby">
+                                            <use xlink:href="img/spritesSymbol.svg#standby"></use>
+                                        </svg> <a href="#" class="mainMenu__link">Закрытые казино</a>
+                                    </li>
+                                    <li class="mainMenu__item">
+                                        <svg class="icons book">
+                                            <use xlink:href="img/spritesSymbol.svg#book"></use>
+                                        </svg> <a href="#" class="mainMenu__link">Словарь терминов</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="mainMenu__col">
+                                <ul class="mainMenu__list">
+                                    <li class="mainMenu__item">
+                                        <svg class="icons codetags">
+                                            <use xlink:href="img/spritesSymbol.svg#codetags"></use>
+                                        </svg> <a href="#" class="mainMenu__link">Софт</a>
+                                    </li>
+                                    <li class="mainMenu__item">
+                                        <svg class="icons exchange">
+                                            <use xlink:href="img/spritesSymbol.svg#exchange"></use>
+                                        </svg> <a href="#" class="mainMenu__link">Методы депозита</a>
+                                    </li>
+                                    <li class="mainMenu__item">
+                                        <svg class="icons profile">
+                                            <use xlink:href="img/spritesSymbol.svg#profile"></use>
+                                        </svg> <a href="#" class="mainMenu__link">Лицензии</a>
+                                    </li>
+                                    <li class="mainMenu__item">
+                                        <svg class="icons dollar">
+                                            <use xlink:href="img/spritesSymbol.svg#dollar"></use>
+                                        </svg> <a href="#" class="mainMenu__link">Валюты</a>
+                                    </li>
+                                    <li class="mainMenu__item">
+                                        <svg class="icons location">
+                                            <use xlink:href="img/spritesSymbol.svg#location"></use>
+                                        </svg> <a href="#" class="mainMenu__link">Языки</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="mainMenu__col mainMenu__col_wide">
+                                <ul class="mainMenu__list">
+
+                                    <li class="mainMenu__item">
+                                        <a href="#" class="mainMenu__link">Бездепозитные бонусы
+                                        казино</a>
+                                        <span class="mainMenu__note">Список казино с бездепозитным бонусом за регистрацию</span>
+                                    </li>
+                                    <li class="mainMenu__item">
+                                        <a href="#" class="mainMenu__link">Приветственые бонусы</a>
+                                        <span class="mainMenu__note">Казино, предоставляющие  бонус на первый депозит</span>
+                                    </li>
+                                    <li class="mainMenu__item">
+                                        <a href="#" class="mainMenu__link">Бесплатные вращения (Free Spins)</a>
+                                        <span class="mainMenu__note">Бесплатные вращения за регистрацию в казино</span>
+                                    </li>
+                                    <li class="mainMenu__item">
+                                        <a href="/bonus-codes-for-online-casinos/" class="mainMenu__link">Бонус коды
+                                        казино</a>
+                                    </li>
+                                    <li class="mainMenu__item">
+                                        <a href="#" class="mainMenu__link">Кэшбэк бонусы
+                                        казино</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="mainMenu__bottom">
+                                <a href="#" class="mainMenu__all">Все разделы</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <nav class="nav">
+                    <ul>
+                        <li><a href="#">Рейтинг казино</a></li>
+                        <li><a href="#">Жалобы</a></li>
+                        <li><a href="#">Бонусы</a></li>
+                        <li><a href="#">Игровые автоматы</a></li>
+                        <li><a href="#">Стримы </a></li>
+                        <li><a href="#">Видео</a></li>
+                        <li><a href="#">Новости</a></li>
+                        <li><a href="#">Форум</a></li>
+                    </ul>
+                </nav>
+
+                <button class="sign-in">Войти</button>
+                <div class="header__menu-toggle humb-js">
+                    <span class="toggle-site-sec__hamburger hamburger"><span class="hamburger__item"></span></span>
+                </div>
+            </div>
+            <div class="header__bot">
+                <a href="#" class="logo">
+                    <img src="img/logo-affgambler.svg" alt="">
+                </a>
+                <form action="#" class="search-form">
+                    <input type="text" class="search-form__field" placeholder="Введите поисковый запрос. Например Videoslots">
+                </form>
+            </div>
+        </header>
+    </div>
+    <main class="main">
+        <div class="container">
+            <section class="banner">
+                <div class="side-section">
+                    <div class="side-section__content banner__main">
+                        <div class="banner__row">
+                            <div class="banner__news-primary">
+                                <div class="banner-news-main">
+                                    <a href="#" class="banner-news-main__img-prev">
+                                        <img src="img/kak-otlichit-licenzionnye-igrovye-avtomaty-ot-poddelnyh-510x340.jpg" alt="">
+                                        <h3 class="banner-news-main__title">Как отличить лицензионные игровые автоматы от поддельных (скриптовых)</h3>
+                                    </a>
+                                    <p class="banner-news-main__text">Когда-то очень давно я думал, что все игровые автоматы в казино - это разработки самих онлайн казино, т.е. что все видео слоты придумываются и разрабатываются представителями казино под их нужды, именно ими настраивается отдача слотов и размеры ставок... На самом деле все оказалось не совсем так - лицензионные (честные) игровые автоматы создаются разработчиками софта дл</p>
+                                </div>
+                            </div>
+                            <div class="banner__news-second">
+                                <ul class="banner__secon-news-list">
+                                    <li class="banner__secon-news-item">
+                                        <div class="banner-news-medium">
+                                            <a href="#" class="banner-news-medium__img-wrap">
+                                                <img src="img/kak-otlichit-licenzionnye-igrovye-avtomaty-ot-poddelnyh-510x340.jpg" alt="">
+                                            </a>
+                                            <h4 class="banner-news-medium__title"><a href="#">Как рекламируют казино по ТВ за границей?</a></h4>
+                                        </div>
+                                    </li>
+                                    <li class="banner__secon-news-item">
+                                        <div class="banner-news-medium">
+                                            <a href="#" class="banner-news-medium__img-wrap">
+                                                <img src="img/kak-otlichit-licenzionnye-igrovye-avtomaty-ot-poddelnyh-510x340.jpg" alt="">
+                                            </a>
+                                            <h4 class="banner-news-medium__title"><a href="#">Как рекламируют казино по ТВ за границей?</a></h4>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="banner__news-second">
+                                <ul class="banner-news-list">
+                                    <li>
+                                        <div class="news-list-item">
+                                            <h5><a href="#">Джекпоты Daily Drop от Red Tiger выплатили более £2.5 миллиона</a></h5>
+                                            <span class="date">Авг. 07, 2019</span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="news-list-item">
+                                            <h5><a href="#">Джекпоты Daily Drop от Red Tiger выплатили более £2.5 миллиона</a></h5>
+                                            <span class="date">Авг. 07, 2019</span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="news-list-item">
+                                            <h5><a href="#">Джекпоты Daily Drop от Red Tiger выплатили более £2.5 миллиона</a></h5>
+                                            <span class="date">Авг. 07, 2019</span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="news-list-item">
+                                            <h5><a href="#">Джекпоты Daily Drop от Red Tiger выплатили более £2.5 миллиона</a></h5>
+                                            <span class="date">Авг. 07, 2019</span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="news-list-item">
+                                            <h5><a href="#">Джекпоты Daily Drop от Red Tiger выплатили более £2.5 миллиона</a></h5>
+                                            <span class="date">Авг. 07, 2019</span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="news-list-item">
+                                            <h5><a href="#">Джекпоты Daily Drop от Red Tiger выплатили более £2.5 миллиона</a></h5>
+                                            <span class="date">Авг. 07, 2019</span>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="banner-bottom">
+                            <ul class="banner-bottom__list">
+                                <li class="banner-bottom__item">
+                                    <div class="news-list-item">
+                                        <h5><a href="#">Джекпоты Daily Drop от Red Tiger выплатили более £2.5 миллиона</a></h5>
+                                        <span class="date">Авг. 07, 2019</span>
+                                    </div>
+                                </li>
+                                <li class="banner-bottom__item">
+                                    <div class="news-list-item">
+                                        <h5><a href="#">Джекпоты Daily Drop от Red Tiger выплатили более £2.5 миллиона</a></h5>
+                                        <span class="date">Авг. 07, 2019</span>
+                                    </div>
+                                </li>
+                                <li class="banner-bottom__item">
+                                    <div class="news-list-item">
+                                        <h5><a href="#">Джекпоты Daily Drop от Red Tiger выплатили более £2.5 миллиона</a></h5>
+                                        <span class="date">Авг. 07, 2019</span>
+                                    </div>
+                                </li>
+                                <li class="banner-bottom__item">
+                                    <div class="news-list-item">
+                                        <h5><a href="#">Джекпоты Daily Drop от Red Tiger выплатили более £2.5 миллиона</a></h5>
+                                        <span class="date">Авг. 07, 2019</span>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="side-section__sidebar">
+                        <div class="top-cas-sidebar">
+                            <h3 class="top-cas-sidebar__title">ТОП казино онлайн</h3>
+                            <ul class="top-cas-sidebar__list">
+                                <li class="top-cas-sidebar__item">
+                                    <div class="top-cas-item">
+                                        <a href="#" class="top-cas-item__img-link"><img src="img/play-fortuna-logo-100x56.jpg" alt=""></a>
+
+                                        <div class="">
+                                            <h4 class="top-cas-item__name"><a href="#">Play Fortuna</a></h4>
+                                            <div class="top-cas-item__status">закреплено</div>
+                                        </div>
+
+                                        <div class="top-cas-item__rate">
+                                            <span class="top-cas-item__rate-num">8.55</span>
+                                            <span class="top-cas-item__rate-rev">44 отзыва</span>
+                                        </div>
+
+                                        <a href="#" class="top-cas-item__play">Играть</a>
+                                    </div>
+                                </li>
+                                <li class="top-cas-sidebar__item">
+                                    <div class="top-cas-item">
+                                        <a href="#" class="top-cas-item__img-link"><img src="img/play-fortuna-logo-100x56.jpg" alt=""></a>
+
+                                        <div class="">
+                                            <h4 class="top-cas-item__name"><a href="#">Play Fortuna</a></h4>
+                                            <div class="top-cas-item__status">закреплено</div>
+                                        </div>
+
+                                        <div class="top-cas-item__rate">
+                                            <span class="top-cas-item__rate-num">8.55</span>
+                                            <span class="top-cas-item__rate-rev">44 отзыва</span>
+                                        </div>
+
+                                        <a href="#" class="top-cas-item__play">Играть</a>
+                                    </div>
+                                </li>
+                                <li class="top-cas-sidebar__item">
+                                    <div class="top-cas-item">
+                                        <a href="#" class="top-cas-item__img-link"><img src="img/play-fortuna-logo-100x56.jpg" alt=""></a>
+
+                                        <div class="">
+                                            <h4 class="top-cas-item__name"><a href="#">Play Fortuna</a></h4>
+                                            <div class="top-cas-item__status">закреплено</div>
+                                        </div>
+
+                                        <div class="top-cas-item__rate">
+                                            <span class="top-cas-item__rate-num">8.55</span>
+                                            <span class="top-cas-item__rate-rev">44 отзыва</span>
+                                        </div>
+
+                                        <a href="#" class="top-cas-item__play">Играть</a>
+                                    </div>
+                                </li>
+                                <li class="top-cas-sidebar__item">
+                                    <div class="top-cas-item">
+                                        <a href="#" class="top-cas-item__img-link"><img src="img/play-fortuna-logo-100x56.jpg" alt=""></a>
+
+                                        <div class="">
+                                            <h4 class="top-cas-item__name"><a href="#">Play Fortuna</a></h4>
+                                            <div class="top-cas-item__status">закреплено</div>
+                                        </div>
+
+                                        <div class="top-cas-item__rate">
+                                            <span class="top-cas-item__rate-num">8.55</span>
+                                            <span class="top-cas-item__rate-rev">44 отзыва</span>
+                                        </div>
+
+                                        <a href="#" class="top-cas-item__play">Играть</a>
+                                    </div>
+                                </li>
+                                <li class="top-cas-sidebar__item">
+                                    <div class="top-cas-item">
+                                        <a href="#" class="top-cas-item__img-link"><img src="img/play-fortuna-logo-100x56.jpg" alt=""></a>
+
+                                        <div class="">
+                                            <h4 class="top-cas-item__name"><a href="#">Play Fortuna</a></h4>
+                                            <div class="top-cas-item__status">закреплено</div>
+                                        </div>
+
+                                        <div class="top-cas-item__rate">
+                                            <span class="top-cas-item__rate-num">8.55</span>
+                                            <span class="top-cas-item__rate-rev">44 отзыва</span>
+                                        </div>
+
+                                        <a href="#" class="top-cas-item__play">Играть</a>
+                                    </div>
+                                </li>
+                                <li class="top-cas-sidebar__item">
+                                    <div class="top-cas-item">
+                                        <a href="#" class="top-cas-item__img-link"><img src="img/play-fortuna-logo-100x56.jpg" alt=""></a>
+
+                                        <div class="">
+                                            <h4 class="top-cas-item__name"><a href="#">Play Fortuna</a></h4>
+                                            <div class="top-cas-item__status">закреплено</div>
+                                        </div>
+
+                                        <div class="top-cas-item__rate">
+                                            <span class="top-cas-item__rate-num">8.55</span>
+                                            <span class="top-cas-item__rate-rev">44 отзыва</span>
+                                        </div>
+
+                                        <a href="#" class="top-cas-item__play">Играть</a>
+                                    </div>
+                                </li>
+                                <li class="top-cas-sidebar__item">
+                                    <div class="top-cas-item">
+                                        <a href="#" class="top-cas-item__img-link"><img src="img/play-fortuna-logo-100x56.jpg" alt=""></a>
+
+                                        <div class="">
+                                            <h4 class="top-cas-item__name"><a href="#">Play Fortuna</a></h4>
+                                            <div class="top-cas-item__status">закреплено</div>
+                                        </div>
+
+                                        <div class="top-cas-item__rate">
+                                            <span class="top-cas-item__rate-num">8.55</span>
+                                            <span class="top-cas-item__rate-rev">44 отзыва</span>
+                                        </div>
+
+                                        <a href="#" class="top-cas-item__play">Играть</a>
+                                    </div>
+                                </li>
+                                <li class="top-cas-sidebar__item">
+                                    <div class="top-cas-item">
+                                        <a href="#" class="top-cas-item__img-link"><img src="img/play-fortuna-logo-100x56.jpg" alt=""></a>
+
+                                        <div class="">
+                                            <h4 class="top-cas-item__name"><a href="#">Play Fortuna</a></h4>
+                                            <div class="top-cas-item__status">закреплено</div>
+                                        </div>
+
+                                        <div class="top-cas-item__rate">
+                                            <span class="top-cas-item__rate-num">8.55</span>
+                                            <span class="top-cas-item__rate-rev">44 отзыва</span>
+                                        </div>
+
+                                        <a href="#" class="top-cas-item__play">Играть</a>
+                                    </div>
+                                </li>
+                                <li class="top-cas-sidebar__item">
+                                    <div class="top-cas-item">
+                                        <a href="#" class="top-cas-item__img-link"><img src="img/play-fortuna-logo-100x56.jpg" alt=""></a>
+
+                                        <div class="">
+                                            <h4 class="top-cas-item__name"><a href="#">Play Fortuna</a></h4>
+                                            <div class="top-cas-item__status">закреплено</div>
+                                        </div>
+
+                                        <div class="top-cas-item__rate">
+                                            <span class="top-cas-item__rate-num">8.55</span>
+                                            <span class="top-cas-item__rate-rev">44 отзыва</span>
+                                        </div>
+
+                                        <a href="#" class="top-cas-item__play">Играть</a>
+                                    </div>
+                                </li>
+                                <li class="top-cas-sidebar__item">
+                                    <div class="top-cas-item">
+                                        <a href="#" class="top-cas-item__img-link"><img src="img/play-fortuna-logo-100x56.jpg" alt=""></a>
+
+                                        <div class="">
+                                            <h4 class="top-cas-item__name"><a href="#">Play Fortuna</a></h4>
+                                            <div class="top-cas-item__status">закреплено</div>
+                                        </div>
+
+                                        <div class="top-cas-item__rate">
+                                            <span class="top-cas-item__rate-num">8.55</span>
+                                            <span class="top-cas-item__rate-rev">44 отзыва</span>
+                                        </div>
+
+                                        <a href="#" class="top-cas-item__play">Играть</a>
+                                    </div>
+                                </li>
+                                <li class="top-cas-sidebar__item">
+                                    <div class="top-cas-item">
+                                        <a href="#" class="top-cas-item__img-link"><img src="img/play-fortuna-logo-100x56.jpg" alt=""></a>
+
+                                        <div class="">
+                                            <h4 class="top-cas-item__name"><a href="#">Play Fortuna</a></h4>
+                                            <div class="top-cas-item__status">закреплено</div>
+                                        </div>
+
+                                        <div class="top-cas-item__rate">
+                                            <span class="top-cas-item__rate-num">8.55</span>
+                                            <span class="top-cas-item__rate-rev">44 отзыва</span>
+                                        </div>
+
+                                        <a href="#" class="top-cas-item__play">Играть</a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="cas-prev">
+                <div class="cas-prev__row">
+                    <div class="cas-prev__list-item">
+                        <div class="cas-prev__item">
+                            <header class="cas-prev__header">
+                                <h4 class="cas-prev__title">Новые онлайн казино</h4>
+                                <div class="help">
+                                    <button class="help__button js-homepage-help">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 18">
+                                            <path fill="gray" d="M10.91 5.633c-.404-.34-.957-.51-1.657-.51-.312 0-.644.035-.994.105-.35.07-.64.15-.868.237v.996h.05c.18-.113.43-.225.744-.336.314-.11.647-.166 1-.166.393 0 .714.09.963.27.248.182.372.456.372.824 0 .28-.052.51-.156.69-.104.182-.25.357-.44.526a3.34 3.34 0 0 1-.602.434c-.246.144-.475.275-.686.396v1.49h.874v-1.1c.267-.153.52-.31.757-.474a4.29 4.29 0 0 0 .63-.523 2.34 2.34 0 0 0 .448-.66c.114-.25.17-.534.17-.853 0-.555-.202-1.003-.607-1.344zM8.594 11.51h.996v1.03h-.996z"></path>
+                                            <path fill="gray" d="M9 18c-4.962 0-9-4.037-9-9 0-4.962 4.038-9 9-9 4.963 0 9 4.038 9 9 0 4.963-4.037 9-9 9zM9 1C4.59 1 1 4.59 1 9s3.59 8 8 8 8-3.59 8-8-3.59-8-8-8z"></path>
+                                        </svg>
+                                    </button>
+                                    <div class="help__popover js-homepage-popover" style="display: none;">
+                                        <p>У нас на сайте всегда можно поиграть в игровые автоматы бесплатно, попробовать новый слот совсем не рискуя своими деньгами. Что важно — для доступа к бесплатной игре нет необходимости проходить процедуру регистрации. Чтобы найти нужный вам слот, воспользуйтесь фильтрами или поиском на странице со списком всех игровых автоматов.</p>
+                                    </div>
+                                </div>
+                                <button>
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 18">
+                                        <path fill="gray" d="M10.91 5.633c-.404-.34-.957-.51-1.657-.51-.312 0-.644.035-.994.105-.35.07-.64.15-.868.237v.996h.05c.18-.113.43-.225.744-.336.314-.11.647-.166 1-.166.393 0 .714.09.963.27.248.182.372.456.372.824 0 .28-.052.51-.156.69-.104.182-.25.357-.44.526a3.34 3.34 0 0 1-.602.434c-.246.144-.475.275-.686.396v1.49h.874v-1.1c.267-.153.52-.31.757-.474a4.29 4.29 0 0 0 .63-.523 2.34 2.34 0 0 0 .448-.66c.114-.25.17-.534.17-.853 0-.555-.202-1.003-.607-1.344zM8.594 11.51h.996v1.03h-.996z"></path>
+                                        <path fill="gray" d="M9 18c-4.962 0-9-4.037-9-9 0-4.962 4.038-9 9-9 4.963 0 9 4.038 9 9 0 4.963-4.037 9-9 9zM9 1C4.59 1 1 4.59 1 9s3.59 8 8 8 8-3.59 8-8-3.59-8-8-8z"></path>
+                                    </svg>
+                                </button>
+                            </header>
+
+                            <ul>
+                                <li>
+                                    <div class="cas-prev-item">
+                                        <a href="#" class="cas-prev-item__img-wrap">
+                                            <img src="img/play-fortuna-logo-100x56.jpg" alt="">
+                                        </a>
+                                        <div>
+                                            <header class="cas-prev-item__header">
+                                                <h5 class="cas-prev-item__name"><a href="#">Сasoo casino</a></h5>
+                                                <div class="rate">
+                                                    <ul>
+                                                        <li class="active"></li>
+                                                        <li class="active"></li>
+                                                        <li></li>
+                                                        <li></li>
+                                                        <li></li>
+                                                    </ul>
+                                                    <span class="cas-prev-item__rating">5.93</span>
+                                                </div>
+                                            </header>
+                                            <p class="cas-prev-item__text">NetEnt, Microgaming, Betsoft, Play’n GO, ELK Studios и еще 10</p>
+                                        </div>
+
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="cas-prev-item">
+                                        <a href="#" class="cas-prev-item__img-wrap">
+                                            <img src="img/play-fortuna-logo-100x56.jpg" alt="">
+                                        </a>
+                                        <div>
+                                            <header class="cas-prev-item__header">
+                                                <h5 class="cas-prev-item__name"><a href="#">Сasoo casino</a></h5>
+                                                <div class="rate">
+                                                    <ul>
+                                                        <li class="active"></li>
+                                                        <li class="active"></li>
+                                                        <li></li>
+                                                        <li></li>
+                                                        <li></li>
+                                                    </ul>
+                                                    <span class="cas-prev-item__rating">5.93</span>
+                                                </div>
+                                            </header>
+                                            <p class="cas-prev-item__text">NetEnt, Microgaming, Betsoft, Play’n GO, ELK Studios и еще 10</p>
+                                        </div>
+
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="cas-prev-item">
+                                        <a href="#" class="cas-prev-item__img-wrap">
+                                            <img src="img/play-fortuna-logo-100x56.jpg" alt="">
+                                        </a>
+                                        <div>
+                                            <header class="cas-prev-item__header">
+                                                <h5 class="cas-prev-item__name"><a href="#">Сasoo casino</a></h5>
+                                                <div class="rate">
+                                                    <ul>
+                                                        <li class="active"></li>
+                                                        <li class="active"></li>
+                                                        <li></li>
+                                                        <li></li>
+                                                        <li></li>
+                                                    </ul>
+                                                    <span class="cas-prev-item__rating">5.93</span>
+                                                </div>
+                                            </header>
+                                            <p class="cas-prev-item__text">NetEnt, Microgaming, Betsoft, Play’n GO, ELK Studios и еще 10</p>
+                                        </div>
+
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="cas-prev__list-item">
+                        <div class="cas-prev__item">
+                            <header class="cas-prev__header">
+                                <h4 class="cas-prev__title">Новые онлайн казино</h4>
+                                <div class="help">
+                                    <button class="help__button js-homepage-help">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 18">
+                                            <path fill="gray" d="M10.91 5.633c-.404-.34-.957-.51-1.657-.51-.312 0-.644.035-.994.105-.35.07-.64.15-.868.237v.996h.05c.18-.113.43-.225.744-.336.314-.11.647-.166 1-.166.393 0 .714.09.963.27.248.182.372.456.372.824 0 .28-.052.51-.156.69-.104.182-.25.357-.44.526a3.34 3.34 0 0 1-.602.434c-.246.144-.475.275-.686.396v1.49h.874v-1.1c.267-.153.52-.31.757-.474a4.29 4.29 0 0 0 .63-.523 2.34 2.34 0 0 0 .448-.66c.114-.25.17-.534.17-.853 0-.555-.202-1.003-.607-1.344zM8.594 11.51h.996v1.03h-.996z"></path>
+                                            <path fill="gray" d="M9 18c-4.962 0-9-4.037-9-9 0-4.962 4.038-9 9-9 4.963 0 9 4.038 9 9 0 4.963-4.037 9-9 9zM9 1C4.59 1 1 4.59 1 9s3.59 8 8 8 8-3.59 8-8-3.59-8-8-8z"></path>
+                                        </svg>
+                                    </button>
+                                    <div class="help__popover js-homepage-popover" style="display: none;">
+                                        <p>У нас на сайте всегда можно поиграть в игровые автоматы бесплатно, попробовать новый слот совсем не рискуя своими деньгами. Что важно — для доступа к бесплатной игре нет необходимости проходить процедуру регистрации. Чтобы найти нужный вам слот, воспользуйтесь фильтрами или поиском на странице со списком всех игровых автоматов.</p>
+                                    </div>
+                                </div>
+                                <button>
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 18">
+                                        <path fill="gray" d="M10.91 5.633c-.404-.34-.957-.51-1.657-.51-.312 0-.644.035-.994.105-.35.07-.64.15-.868.237v.996h.05c.18-.113.43-.225.744-.336.314-.11.647-.166 1-.166.393 0 .714.09.963.27.248.182.372.456.372.824 0 .28-.052.51-.156.69-.104.182-.25.357-.44.526a3.34 3.34 0 0 1-.602.434c-.246.144-.475.275-.686.396v1.49h.874v-1.1c.267-.153.52-.31.757-.474a4.29 4.29 0 0 0 .63-.523 2.34 2.34 0 0 0 .448-.66c.114-.25.17-.534.17-.853 0-.555-.202-1.003-.607-1.344zM8.594 11.51h.996v1.03h-.996z"></path>
+                                        <path fill="gray" d="M9 18c-4.962 0-9-4.037-9-9 0-4.962 4.038-9 9-9 4.963 0 9 4.038 9 9 0 4.963-4.037 9-9 9zM9 1C4.59 1 1 4.59 1 9s3.59 8 8 8 8-3.59 8-8-3.59-8-8-8z"></path>
+                                    </svg>
+                                </button>
+                            </header>
+
+                            <ul>
+                                <li>
+                                    <div class="cas-prev-item">
+                                        <a href="#" class="cas-prev-item__img-wrap">
+                                            <img src="img/play-fortuna-logo-100x56.jpg" alt="">
+                                        </a>
+                                        <div>
+                                            <header class="cas-prev-item__header">
+                                                <h5 class="cas-prev-item__name"><a href="#">Сasoo casino</a></h5>
+                                                <div class="rate">
+                                                    <ul>
+                                                        <li class="active"></li>
+                                                        <li class="active"></li>
+                                                        <li></li>
+                                                        <li></li>
+                                                        <li></li>
+                                                    </ul>
+                                                    <span class="cas-prev-item__rating">5.93</span>
+                                                </div>
+                                            </header>
+                                            <p class="cas-prev-item__text">NetEnt, Microgaming, Betsoft, Play’n GO, ELK Studios и еще 10</p>
+                                        </div>
+
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="cas-prev-item">
+                                        <a href="#" class="cas-prev-item__img-wrap">
+                                            <img src="img/play-fortuna-logo-100x56.jpg" alt="">
+                                        </a>
+                                        <div>
+                                            <header class="cas-prev-item__header">
+                                                <h5 class="cas-prev-item__name"><a href="#">Сasoo casino</a></h5>
+                                                <div class="rate">
+                                                    <ul>
+                                                        <li class="active"></li>
+                                                        <li class="active"></li>
+                                                        <li></li>
+                                                        <li></li>
+                                                        <li></li>
+                                                    </ul>
+                                                    <span class="cas-prev-item__rating">5.93</span>
+                                                </div>
+                                            </header>
+                                            <p class="cas-prev-item__text">NetEnt, Microgaming, Betsoft, Play’n GO, ELK Studios и еще 10</p>
+                                        </div>
+
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="cas-prev-item">
+                                        <a href="#" class="cas-prev-item__img-wrap">
+                                            <img src="img/play-fortuna-logo-100x56.jpg" alt="">
+                                        </a>
+                                        <div>
+                                            <header class="cas-prev-item__header">
+                                                <h5 class="cas-prev-item__name"><a href="#">Сasoo casino</a></h5>
+                                                <div class="rate">
+                                                    <ul>
+                                                        <li class="active"></li>
+                                                        <li class="active"></li>
+                                                        <li></li>
+                                                        <li></li>
+                                                        <li></li>
+                                                    </ul>
+                                                    <span class="cas-prev-item__rating">5.93</span>
+                                                </div>
+                                            </header>
+                                            <p class="cas-prev-item__text">NetEnt, Microgaming, Betsoft, Play’n GO, ELK Studios и еще 10</p>
+                                        </div>
+
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="cas-prev__list-item">
+                        <div class="cas-prev__item">
+                            <header class="cas-prev__header">
+                                <h4 class="cas-prev__title">Новые онлайн казино</h4>
+                                <div class="help">
+                                    <button class="help__button js-homepage-help">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 18">
+                                            <path fill="gray" d="M10.91 5.633c-.404-.34-.957-.51-1.657-.51-.312 0-.644.035-.994.105-.35.07-.64.15-.868.237v.996h.05c.18-.113.43-.225.744-.336.314-.11.647-.166 1-.166.393 0 .714.09.963.27.248.182.372.456.372.824 0 .28-.052.51-.156.69-.104.182-.25.357-.44.526a3.34 3.34 0 0 1-.602.434c-.246.144-.475.275-.686.396v1.49h.874v-1.1c.267-.153.52-.31.757-.474a4.29 4.29 0 0 0 .63-.523 2.34 2.34 0 0 0 .448-.66c.114-.25.17-.534.17-.853 0-.555-.202-1.003-.607-1.344zM8.594 11.51h.996v1.03h-.996z"></path>
+                                            <path fill="gray" d="M9 18c-4.962 0-9-4.037-9-9 0-4.962 4.038-9 9-9 4.963 0 9 4.038 9 9 0 4.963-4.037 9-9 9zM9 1C4.59 1 1 4.59 1 9s3.59 8 8 8 8-3.59 8-8-3.59-8-8-8z"></path>
+                                        </svg>
+                                    </button>
+                                    <div class="help__popover js-homepage-popover" style="display: none;">
+                                        <p>У нас на сайте всегда можно поиграть в игровые автоматы бесплатно, попробовать новый слот совсем не рискуя своими деньгами. Что важно — для доступа к бесплатной игре нет необходимости проходить процедуру регистрации. Чтобы найти нужный вам слот, воспользуйтесь фильтрами или поиском на странице со списком всех игровых автоматов.</p>
+                                    </div>
+                                </div>
+                                <button>
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 18">
+                                        <path fill="gray" d="M10.91 5.633c-.404-.34-.957-.51-1.657-.51-.312 0-.644.035-.994.105-.35.07-.64.15-.868.237v.996h.05c.18-.113.43-.225.744-.336.314-.11.647-.166 1-.166.393 0 .714.09.963.27.248.182.372.456.372.824 0 .28-.052.51-.156.69-.104.182-.25.357-.44.526a3.34 3.34 0 0 1-.602.434c-.246.144-.475.275-.686.396v1.49h.874v-1.1c.267-.153.52-.31.757-.474a4.29 4.29 0 0 0 .63-.523 2.34 2.34 0 0 0 .448-.66c.114-.25.17-.534.17-.853 0-.555-.202-1.003-.607-1.344zM8.594 11.51h.996v1.03h-.996z"></path>
+                                        <path fill="gray" d="M9 18c-4.962 0-9-4.037-9-9 0-4.962 4.038-9 9-9 4.963 0 9 4.038 9 9 0 4.963-4.037 9-9 9zM9 1C4.59 1 1 4.59 1 9s3.59 8 8 8 8-3.59 8-8-3.59-8-8-8z"></path>
+                                    </svg>
+                                </button>
+                            </header>
+
+                            <ul>
+                                <li>
+                                    <div class="cas-prev-item">
+                                        <a href="#" class="cas-prev-item__img-wrap">
+                                            <img src="img/play-fortuna-logo-100x56.jpg" alt="">
+                                        </a>
+                                        <div>
+                                            <header class="cas-prev-item__header">
+                                                <h5 class="cas-prev-item__name"><a href="#">Сasoo casino</a></h5>
+                                                <div class="rate">
+                                                    <ul>
+                                                        <li class="active"></li>
+                                                        <li class="active"></li>
+                                                        <li></li>
+                                                        <li></li>
+                                                        <li></li>
+                                                    </ul>
+                                                    <span class="cas-prev-item__rating">5.93</span>
+                                                </div>
+                                            </header>
+                                            <p class="cas-prev-item__text">NetEnt, Microgaming, Betsoft, Play’n GO, ELK Studios и еще 10</p>
+                                        </div>
+
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="cas-prev-item">
+                                        <a href="#" class="cas-prev-item__img-wrap">
+                                            <img src="img/play-fortuna-logo-100x56.jpg" alt="">
+                                        </a>
+                                        <div>
+                                            <header class="cas-prev-item__header">
+                                                <h5 class="cas-prev-item__name"><a href="#">Сasoo casino</a></h5>
+                                                <div class="rate">
+                                                    <ul>
+                                                        <li class="active"></li>
+                                                        <li class="active"></li>
+                                                        <li></li>
+                                                        <li></li>
+                                                        <li></li>
+                                                    </ul>
+                                                    <span class="cas-prev-item__rating">5.93</span>
+                                                </div>
+                                            </header>
+                                            <p class="cas-prev-item__text">NetEnt, Microgaming, Betsoft, Play’n GO, ELK Studios и еще 10</p>
+                                        </div>
+
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="cas-prev-item">
+                                        <a href="#" class="cas-prev-item__img-wrap">
+                                            <img src="img/play-fortuna-logo-100x56.jpg" alt="">
+                                        </a>
+                                        <div>
+                                            <header class="cas-prev-item__header">
+                                                <h5 class="cas-prev-item__name"><a href="#">Сasoo casino</a></h5>
+                                                <div class="rate">
+                                                    <ul>
+                                                        <li class="active"></li>
+                                                        <li class="active"></li>
+                                                        <li></li>
+                                                        <li></li>
+                                                        <li></li>
+                                                    </ul>
+                                                    <span class="cas-prev-item__rating">5.93</span>
+                                                </div>
+                                            </header>
+                                            <p class="cas-prev-item__text">NetEnt, Microgaming, Betsoft, Play’n GO, ELK Studios и еще 10</p>
+                                        </div>
+
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="interest">
+                <header class="section-header">
+                    <h2 class="section-header__title"><a href="#">Интересное</a></h2>
+                </header>
+                <ul class="interest__slider">
+                    <li>
+                        <a href="#" class="interest-item">
+                            <img src="img/kak-otlichit-licenzionnye-igrovye-avtomaty-ot-poddelnyh-510x340.jpg" alt="">
+                            <h4>Бездепозитный бонус Casino-X. 20 фриспинов по бонус-коду: chip</h4>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="interest-item">
+                            <img src="img/kak-otlichit-licenzionnye-igrovye-avtomaty-ot-poddelnyh-510x340.jpg" alt="">
+                            <h4>Бездепозитный бонус Casino-X. 20 фриспинов по бонус-коду: chip</h4>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="interest-item">
+                            <img src="img/kak-otlichit-licenzionnye-igrovye-avtomaty-ot-poddelnyh-510x340.jpg" alt="">
+                            <h4>Бездепозитный бонус Casino-X. 20 фриспинов по бонус-коду: chip</h4>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="interest-item">
+                            <img src="img/kak-otlichit-licenzionnye-igrovye-avtomaty-ot-poddelnyh-510x340.jpg" alt="">
+                            <h4>Бездепозитный бонус Casino-X. 20 фриспинов по бонус-коду: chip</h4>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="interest-item">
+                            <img src="img/kak-otlichit-licenzionnye-igrovye-avtomaty-ot-poddelnyh-510x340.jpg" alt="">
+                            <h4>Бездепозитный бонус Casino-X. 20 фриспинов по бонус-коду: chip</h4>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="interest-item">
+                            <img src="img/kak-otlichit-licenzionnye-igrovye-avtomaty-ot-poddelnyh-510x340.jpg" alt="">
+                            <h4>Бездепозитный бонус Casino-X. 20 фриспинов по бонус-коду: chip</h4>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="interest-item">
+                            <img src="img/kak-otlichit-licenzionnye-igrovye-avtomaty-ot-poddelnyh-510x340.jpg" alt="">
+                            <h4>Бездепозитный бонус Casino-X. 20 фриспинов по бонус-коду: chip</h4>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="interest-item">
+                            <img src="img/kak-otlichit-licenzionnye-igrovye-avtomaty-ot-poddelnyh-510x340.jpg" alt="">
+                            <h4>Бездепозитный бонус Casino-X. 20 фриспинов по бонус-коду: chip</h4>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="interest-item">
+                            <img src="img/kak-otlichit-licenzionnye-igrovye-avtomaty-ot-poddelnyh-510x340.jpg" alt="">
+                            <h4>Бездепозитный бонус Casino-X. 20 фриспинов по бонус-коду: chip</h4>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="interest-item">
+                            <img src="img/kak-otlichit-licenzionnye-igrovye-avtomaty-ot-poddelnyh-510x340.jpg" alt="">
+                            <h4>Бездепозитный бонус Casino-X. 20 фриспинов по бонус-коду: chip</h4>
+                        </a>
+                    </li>
+                </ul>
+            </section>
+
+            <div class="side-section">
+                <div class="side-section__content">
+
+                    <section class="forum-topic section">
+                        <header class="section-header">
+                            <h2 class="section-header__title"><a href="#">Последние темы на форуме</a></h2>
+                        </header>
+                        <div class="forum-topic__content">
+                            <div class="forum-topic__row">
+                                <div class="forum-topic__top-left">
+                                    <ul class="forum-topic__list">
+                                        <li>
+                                            <a href="#" class="topic-link">
+                                                <h5 class="topic-link__title">ФНС будет играть в казино, чтобы выявить нарушителей</h5>
+                                                <span class="topic-link__author">guruazarta</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="topic-link">
+                                                <h5 class="topic-link__title">ФНС будет играть в казино, чтобы выявить нарушителей</h5>
+                                                <span class="topic-link__author">guruazarta</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="topic-link">
+                                                <h5 class="topic-link__title">ФНС будет играть в казино, чтобы выявить нарушителей</h5>
+                                                <span class="topic-link__author">guruazarta</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="topic-link">
+                                                <h5 class="topic-link__title">ФНС будет играть в казино, чтобы выявить нарушителей</h5>
+                                                <span class="topic-link__author">guruazarta</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="forum-topic__top-right">
+                                    <a href="#" class="interest-item">
+                                        <img src="img/kak-otlichit-licenzionnye-igrovye-avtomaty-ot-poddelnyh-510x340.jpg" alt="">
+                                        <h4>Бездепозитный бонус Casino-X. 20 фриспинов по бонус-коду: chip</h4>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="forum-topic__bot">
+                                <ul class="forum-topic__list">
+                                    <li>
+                                        <a href="#" class="topic-link">
+                                            <h5 class="topic-link__title">ФНС будет играть в казино, чтобы выявить нарушителей</h5>
+                                            <span class="topic-link__author">guruazarta</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="topic-link">
+                                            <h5 class="topic-link__title">ФНС будет играть в казино, чтобы выявить нарушителей</h5>
+                                            <span class="topic-link__author">guruazarta</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="topic-link">
+                                            <h5 class="topic-link__title">ФНС будет играть в казино, чтобы выявить нарушителей</h5>
+                                            <span class="topic-link__author">guruazarta</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section class="slots section">
+                        <header class="section-header">
+                            <div>
+                                <h2 class="section-header__title"><a href="#">Новые слоты</a></h2>
+                                <div class="help">
+                                    <button class="help__button js-homepage-help">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 18">
+                                            <path fill="gray" d="M10.91 5.633c-.404-.34-.957-.51-1.657-.51-.312 0-.644.035-.994.105-.35.07-.64.15-.868.237v.996h.05c.18-.113.43-.225.744-.336.314-.11.647-.166 1-.166.393 0 .714.09.963.27.248.182.372.456.372.824 0 .28-.052.51-.156.69-.104.182-.25.357-.44.526a3.34 3.34 0 0 1-.602.434c-.246.144-.475.275-.686.396v1.49h.874v-1.1c.267-.153.52-.31.757-.474a4.29 4.29 0 0 0 .63-.523 2.34 2.34 0 0 0 .448-.66c.114-.25.17-.534.17-.853 0-.555-.202-1.003-.607-1.344zM8.594 11.51h.996v1.03h-.996z"></path>
+                                            <path fill="gray" d="M9 18c-4.962 0-9-4.037-9-9 0-4.962 4.038-9 9-9 4.963 0 9 4.038 9 9 0 4.963-4.037 9-9 9zM9 1C4.59 1 1 4.59 1 9s3.59 8 8 8 8-3.59 8-8-3.59-8-8-8z"></path>
+                                        </svg>
+                                    </button>
+                                    <div class="help__popover js-homepage-popover" style="display: none;">
+                                        <p>У нас на сайте всегда можно поиграть в игровые автоматы бесплатно, попробовать новый слот совсем не рискуя своими деньгами. Что важно — для доступа к бесплатной игре нет необходимости проходить процедуру регистрации. Чтобы найти нужный вам слот, воспользуйтесь фильтрами или поиском на странице со списком всех игровых автоматов.</p>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </header>
+                        <ul class="slots__slider">
+                            <li>
+                                <div class="slots-item">
+                                    <div class="slots-item__new">Новинка</div>
+                                    <a class="slots-item__card">
+                                        <i class="slots-item__play"></i>
+                                        <img src="img/The-Sword-and-The-Grail-foto.jpg" alt="" class="slots-item__img">
+                                        <div class="slots-item__info">
+                                            <ul>
+                                                <li>Волатильность</li>
+                                                <li>RTP</li>
+                                            </ul>
+                                            <ul>
+                                                <li>Высокая</li>
+                                                <li>99.6%</li>
+                                            </ul>
+                                        </div>
+                                    </a>
+                                    <a href="#" class="slots-item__name">The Sword and The Grail</a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="slots-item">
+                                    <div class="slots-item__new">Новинка</div>
+                                    <a class="slots-item__card">
+                                        <i class="slots-item__play"></i>
+                                        <img src="img/The-Sword-and-The-Grail-foto.jpg" alt="" class="slots-item__img">
+                                        <div class="slots-item__info">
+                                            <ul>
+                                                <li>Волатильность</li>
+                                                <li>RTP</li>
+                                            </ul>
+                                            <ul>
+                                                <li>Высокая</li>
+                                                <li>99.6%</li>
+                                            </ul>
+                                        </div>
+                                    </a>
+                                    <a href="#" class="slots-item__name">The Sword and The Grail</a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="slots-item">
+                                    <div class="slots-item__new">Новинка</div>
+                                    <a class="slots-item__card">
+                                        <i class="slots-item__play"></i>
+                                        <img src="img/The-Sword-and-The-Grail-foto.jpg" alt="" class="slots-item__img">
+                                        <div class="slots-item__info">
+                                            <ul>
+                                                <li>Волатильность</li>
+                                                <li>RTP</li>
+                                            </ul>
+                                            <ul>
+                                                <li>Высокая</li>
+                                                <li>99.6%</li>
+                                            </ul>
+                                        </div>
+                                    </a>
+                                    <a href="#" class="slots-item__name">The Sword and The Grail</a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="slots-item">
+                                    <div class="slots-item__new">Новинка</div>
+                                    <a class="slots-item__card">
+                                        <i class="slots-item__play"></i>
+                                        <img src="img/The-Sword-and-The-Grail-foto.jpg" alt="" class="slots-item__img">
+                                        <div class="slots-item__info">
+                                            <ul>
+                                                <li>Волатильность</li>
+                                                <li>RTP</li>
+                                            </ul>
+                                            <ul>
+                                                <li>Высокая</li>
+                                                <li>99.6%</li>
+                                            </ul>
+                                        </div>
+                                    </a>
+                                    <a href="#" class="slots-item__name">The Sword and The Grail</a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="slots-item">
+                                    <div class="slots-item__new">Новинка</div>
+                                    <a class="slots-item__card">
+                                        <i class="slots-item__play"></i>
+                                        <img src="img/The-Sword-and-The-Grail-foto.jpg" alt="" class="slots-item__img">
+                                        <div class="slots-item__info">
+                                            <ul>
+                                                <li>Волатильность</li>
+                                                <li>RTP</li>
+                                            </ul>
+                                            <ul>
+                                                <li>Высокая</li>
+                                                <li>99.6%</li>
+                                            </ul>
+                                        </div>
+                                    </a>
+                                    <a href="#" class="slots-item__name">The Sword and The Grail</a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="slots-item">
+                                    <div class="slots-item__new">Новинка</div>
+                                    <a class="slots-item__card">
+                                        <i class="slots-item__play"></i>
+                                        <img src="img/The-Sword-and-The-Grail-foto.jpg" alt="" class="slots-item__img">
+                                        <div class="slots-item__info">
+                                            <ul>
+                                                <li>Волатильность</li>
+                                                <li>RTP</li>
+                                            </ul>
+                                            <ul>
+                                                <li>Высокая</li>
+                                                <li>99.6%</li>
+                                            </ul>
+                                        </div>
+                                    </a>
+                                    <a href="#" class="slots-item__name">The Sword and The Grail</a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="slots-item">
+                                    <div class="slots-item__new">Новинка</div>
+                                    <a class="slots-item__card">
+                                        <i class="slots-item__play"></i>
+                                        <img src="img/The-Sword-and-The-Grail-foto.jpg" alt="" class="slots-item__img">
+                                        <div class="slots-item__info">
+                                            <ul>
+                                                <li>Волатильность</li>
+                                                <li>RTP</li>
+                                            </ul>
+                                            <ul>
+                                                <li>Высокая</li>
+                                                <li>99.6%</li>
+                                            </ul>
+                                        </div>
+                                    </a>
+                                    <a href="#" class="slots-item__name">The Sword and The Grail</a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="slots-item">
+                                    <div class="slots-item__new">Новинка</div>
+                                    <a class="slots-item__card">
+                                        <i class="slots-item__play"></i>
+                                        <img src="img/The-Sword-and-The-Grail-foto.jpg" alt="" class="slots-item__img">
+                                        <div class="slots-item__info">
+                                            <ul>
+                                                <li>Волатильность</li>
+                                                <li>RTP</li>
+                                            </ul>
+                                            <ul>
+                                                <li>Высокая</li>
+                                                <li>99.6%</li>
+                                            </ul>
+                                        </div>
+                                    </a>
+                                    <a href="#" class="slots-item__name">The Sword and The Grail</a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="slots-item">
+                                    <div class="slots-item__new">Новинка</div>
+                                    <a class="slots-item__card">
+                                        <i class="slots-item__play"></i>
+                                        <img src="img/The-Sword-and-The-Grail-foto.jpg" alt="" class="slots-item__img">
+                                        <div class="slots-item__info">
+                                            <ul>
+                                                <li>Волатильность</li>
+                                                <li>RTP</li>
+                                            </ul>
+                                            <ul>
+                                                <li>Высокая</li>
+                                                <li>99.6%</li>
+                                            </ul>
+                                        </div>
+                                    </a>
+                                    <a href="#" class="slots-item__name">The Sword and The Grail</a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="slots-item">
+                                    <div class="slots-item__new">Новинка</div>
+                                    <a class="slots-item__card">
+                                        <i class="slots-item__play"></i>
+                                        <img src="img/The-Sword-and-The-Grail-foto.jpg" alt="" class="slots-item__img">
+                                        <div class="slots-item__info">
+                                            <ul>
+                                                <li>Волатильность</li>
+                                                <li>RTP</li>
+                                            </ul>
+                                            <ul>
+                                                <li>Высокая</li>
+                                                <li>99.6%</li>
+                                            </ul>
+                                        </div>
+                                    </a>
+                                    <a href="#" class="slots-item__name">The Sword and The Grail</a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="slots-item">
+                                    <div class="slots-item__new">Новинка</div>
+                                    <a class="slots-item__card">
+                                        <i class="slots-item__play"></i>
+                                        <img src="img/The-Sword-and-The-Grail-foto.jpg" alt="" class="slots-item__img">
+                                        <div class="slots-item__info">
+                                            <ul>
+                                                <li>Волатильность</li>
+                                                <li>RTP</li>
+                                            </ul>
+                                            <ul>
+                                                <li>Высокая</li>
+                                                <li>99.6%</li>
+                                            </ul>
+                                        </div>
+                                    </a>
+                                    <a href="#" class="slots-item__name">The Sword and The Grail</a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="slots-item">
+                                    <div class="slots-item__new">Новинка</div>
+                                    <a class="slots-item__card">
+                                        <i class="slots-item__play"></i>
+                                        <img src="img/The-Sword-and-The-Grail-foto.jpg" alt="" class="slots-item__img">
+                                        <div class="slots-item__info">
+                                            <ul>
+                                                <li>Волатильность</li>
+                                                <li>RTP</li>
+                                            </ul>
+                                            <ul>
+                                                <li>Высокая</li>
+                                                <li>99.6%</li>
+                                            </ul>
+                                        </div>
+                                    </a>
+                                    <a href="#" class="slots-item__name">The Sword and The Grail</a>
+                                </div>
+                            </li>
+
+                        </ul>
+                    </section>
+                    <section class="reviews section">
+                        <header class="section-header">
+                            <h2 class="section-header__title"><a href="#">Отзывы игроков о казино</a></h2>
+                            <div class="reviews__action">
+                                <a href="#" class="reviews__btn-act">Написать отзыв</a>
+                            </div>
+                        </header>
+                        <ul class="reviews__slider">
+                            <li>
+                                <div class="review-item">
+                                    <header class="review-item__header">
+                                        <a href="#" class="review-item__img-wrap">
+                                            <img src="img/play-fortuna-logo-100x56.jpg" alt="">
+                                        </a>
+                                        <div class="review-item__header-info">
+                                            <a href="#" class="review-item__cas-name">Play Fortuna</a>
+                                            <div class="review-item__bonus">100% до €500</div>
+                                        </div>
+                                    </header>
+                                    <div class="rate">
+                                        <ul>
+                                            <li class="active"></li>
+                                            <li class="active"></li>
+                                            <li class="active"></li>
+                                            <li class="active"></li>
+                                            <li class="active"></li>
+                                            <li class="active"></li>
+                                            <li class="active"></li>
+                                            <li></li>
+                                            <li></li>
+                                        </ul>
+                                    </div>
+                                    <a href="#" class="review-item__text">
+                                        <span class="review-item__subtitle">Positive: </span> Большой выбор игр, лояльные условия приветственного бонуса. Отдельный респект службе поддержки, так как совсем не могла понять, как пройти верификацию для вывода. Во всём помогли.
+                                    </a>
+                                    <a href="#" class="review-item__text">
+                                        <span class="review-item__subtitle">Positive: </span> Большоь, как пройти верификацию для вывода. Во всём помогли.
+                                    </a>
+                                    <footer class="review-item__footer">
+                                        <div class="review-item__user-img-wrap"><img src="img/play-fortuna-logo-100x56.jpg" alt=""></div>
+                                        <div class="review-item__user-info">
+                                            <div class="review-item__user-name">awesome222</div>
+                                            <div class="review-item__date">Posted 29 July at 12:40 PM</div>
+                                        </div>
+                                    </footer>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="review-item">
+                                    <header class="review-item__header">
+                                        <a href="#" class="review-item__img-wrap">
+                                            <img src="img/play-fortuna-logo-100x56.jpg" alt="">
+                                        </a>
+                                        <div class="review-item__header-info">
+                                            <a href="#" class="review-item__cas-name">Play Fortuna</a>
+                                            <div class="review-item__bonus">100% до €500</div>
+                                        </div>
+                                    </header>
+                                    <div class="rate">
+                                        <ul>
+                                            <li class="active"></li>
+                                            <li class="active"></li>
+                                            <li class="active"></li>
+                                            <li class="active"></li>
+                                            <li class="active"></li>
+                                            <li class="active"></li>
+                                            <li class="active"></li>
+                                            <li></li>
+                                            <li></li>
+                                        </ul>
+                                    </div>
+                                    <a href="#" class="review-item__text">
+                                        <span class="review-item__subtitle">Positive: </span> Большой выбор игр, лояльные условия приветственного бонуса. Отдельный респект службе поддержки, так как совсем не могла понять, как пройти верификацию для вывода. Во всём помогли.
+                                    </a>
+                                    <a href="#" class="review-item__text">
+                                        <span class="review-item__subtitle">Positive: </span> Большоь, как пройти верификацию для вывода. Во всём помогли.
+                                    </a>
+                                    <footer class="review-item__footer">
+                                        <div class="review-item__user-img-wrap"><img src="img/play-fortuna-logo-100x56.jpg" alt=""></div>
+                                        <div class="review-item__user-info">
+                                            <div class="review-item__user-name">awesome222</div>
+                                            <div class="review-item__date">Posted 29 July at 12:40 PM</div>
+                                        </div>
+                                    </footer>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="review-item">
+                                    <header class="review-item__header">
+                                        <a href="#" class="review-item__img-wrap">
+                                            <img src="img/play-fortuna-logo-100x56.jpg" alt="">
+                                        </a>
+                                        <div class="review-item__header-info">
+                                            <a href="#" class="review-item__cas-name">Play Fortuna</a>
+                                            <div class="review-item__bonus">100% до €500</div>
+                                        </div>
+                                    </header>
+                                    <div class="rate">
+                                        <ul>
+                                            <li class="active"></li>
+                                            <li class="active"></li>
+                                            <li class="active"></li>
+                                            <li class="active"></li>
+                                            <li class="active"></li>
+                                            <li class="active"></li>
+                                            <li class="active"></li>
+                                            <li></li>
+                                            <li></li>
+                                        </ul>
+                                    </div>
+                                    <a href="#" class="review-item__text">
+                                        <span class="review-item__subtitle">Positive: </span> Большой выбор игр, лояльные условия приветственного бонуса. Отдельный респект службе поддержки, так как совсем не могла понять, как пройти верификацию для вывода. Во всём помогли.
+                                    </a>
+                                    <a href="#" class="review-item__text">
+                                        <span class="review-item__subtitle">Positive: </span> Большоь, как пройти верификацию для вывода. Во всём помогли.
+                                    </a>
+                                    <footer class="review-item__footer">
+                                        <div class="review-item__user-img-wrap"><img src="img/play-fortuna-logo-100x56.jpg" alt=""></div>
+                                        <div class="review-item__user-info">
+                                            <div class="review-item__user-name">awesome222</div>
+                                            <div class="review-item__date">Posted 29 July at 12:40 PM</div>
+                                        </div>
+                                    </footer>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="review-item">
+                                    <header class="review-item__header">
+                                        <a href="#" class="review-item__img-wrap">
+                                            <img src="img/play-fortuna-logo-100x56.jpg" alt="">
+                                        </a>
+                                        <div class="review-item__header-info">
+                                            <a href="#" class="review-item__cas-name">Play Fortuna</a>
+                                            <div class="review-item__bonus">100% до €500</div>
+                                        </div>
+                                    </header>
+                                    <div class="rate">
+                                        <ul>
+                                            <li class="active"></li>
+                                            <li class="active"></li>
+                                            <li class="active"></li>
+                                            <li class="active"></li>
+                                            <li class="active"></li>
+                                            <li class="active"></li>
+                                            <li class="active"></li>
+                                            <li></li>
+                                            <li></li>
+                                        </ul>
+                                    </div>
+                                    <a href="#" class="review-item__text">
+                                        <span class="review-item__subtitle">Positive: </span> Большой выбор игр, лояльные условия приветственного бонуса. Отдельный респект службе поддержки, так как совсем не могла понять, как пройти верификацию для вывода. Во всём помогли.
+                                    </a>
+                                    <a href="#" class="review-item__text">
+                                        <span class="review-item__subtitle">Positive: </span> Большоь, как пройти верификацию для вывода. Во всём помогли.
+                                    </a>
+                                    <footer class="review-item__footer">
+                                        <div class="review-item__user-img-wrap"><img src="img/play-fortuna-logo-100x56.jpg" alt=""></div>
+                                        <div class="review-item__user-info">
+                                            <div class="review-item__user-name">awesome222</div>
+                                            <div class="review-item__date">Posted 29 July at 12:40 PM</div>
+                                        </div>
+                                    </footer>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="review-item">
+                                    <header class="review-item__header">
+                                        <a href="#" class="review-item__img-wrap">
+                                            <img src="img/play-fortuna-logo-100x56.jpg" alt="">
+                                        </a>
+                                        <div class="review-item__header-info">
+                                            <a href="#" class="review-item__cas-name">Play Fortuna</a>
+                                            <div class="review-item__bonus">100% до €500</div>
+                                        </div>
+                                    </header>
+                                    <div class="rate">
+                                        <ul>
+                                            <li class="active"></li>
+                                            <li class="active"></li>
+                                            <li class="active"></li>
+                                            <li class="active"></li>
+                                            <li class="active"></li>
+                                            <li class="active"></li>
+                                            <li class="active"></li>
+                                            <li></li>
+                                            <li></li>
+                                        </ul>
+                                    </div>
+                                    <a href="#" class="review-item__text">
+                                        <span class="review-item__subtitle">Positive: </span> Большой выбор игр, лояльные условия приветственного бонуса. Отдельный респект службе поддержки, так как совсем не могла понять, как пройти верификацию для вывода. Во всём помогли.
+                                    </a>
+                                    <a href="#" class="review-item__text">
+                                        <span class="review-item__subtitle">Positive: </span> Большоь, как пройти верификацию для вывода. Во всём помогли.
+                                    </a>
+                                    <footer class="review-item__footer">
+                                        <div class="review-item__user-img-wrap"><img src="img/play-fortuna-logo-100x56.jpg" alt=""></div>
+                                        <div class="review-item__user-info">
+                                            <div class="review-item__user-name">awesome222</div>
+                                            <div class="review-item__date">Posted 29 July at 12:40 PM</div>
+                                        </div>
+                                    </footer>
+                                </div>
+                            </li>
+                        </ul>
+                    </section>
+
+                    <div class="section">
+                        <article class="main-text">
+                            <h1>Affgambler — обзоры сайтов онлайн казино</h1>
+                            <div class="content-columns">
+                                <p>На сайте Affgambler собрана полезная информация о казино. Читайте новости, обзоры операторов, отзывы игроков и обсуждайте события на нашем форуме. Несмотря на то, что мы рассматриваем и те сайты, которые ориентированы преимущественно на западного игрока, нашим основным направлением являются казино онлайн России.</p>
+                                <p>В зависимости от того, насколько вы требовательны и внимательны, выбор может занять от пары минут и до бесконечности. Если подходить к вопросу максимально основательно, нужно учитывать много факторов и сравнивать разные варианты. А учитывая, что вариантов этих огромное количество, можно потратить немало времени, прежде чем остановиться на одном.</p>
+                                <h3>Рейтинг казино</h3>
+                                <p>Найти подходящие онлайн казино России можно просмотрев наш <a href="#">рейтинг лучших лицензионных казино</a>, там представлено около 216 площадок с их подробными обзорами. По всем операторам уже проведена оценка, и учтены все самые важные факторы, такие как надежность, безопасность, лицензии, коллекция игр, отзывы игроков, платежные системы и некоторые другие. Все показатели взвешены и учтены, так что в рейтинге казино отображаются соответственно их ценности.</p>
+                                <p>Нашей задачей является создание самого объективного рейтинга, где каждый оператор получит оценку, которую он действительно заслуживает. Таким образом, возглавлять наш рейтинг будут онлайн казино России, которые действительно заслуживают этого.</p>
+                                <p>Объективность это главное требование при оценке сайтов заведений. Поэтому создана специальная программа, в которую просто загружаются данные о казино, и на основе этих данных высчитывается рейтинг конкретного оператора.</p>
+                                <p>Казино онлайн России будут автоматически выходить отсортированными в соответствии с полученной ими оценкой. Рейтинг будет меняться в зависимости от страны пользователя. Страна определяется автоматически, но ее можно изменить. Для этого на странице рейтинга в правом меню выберите нужный вам вариант в разделе «Ваша страна».</p>
+                                <p>Там же можно отметить и другие фильтры, например, указать желаемую лицензию, методы депозита, валюту и доступные языки. Применив эти фильтры, вы оставите только самые подходящие для вас сайты.</p>
+                                <h3>Отзывы игроков</h3>
+                                <p>Прочтение отзывов это очень важный момент. Они дают более точное представление о том, что на самом деле происходит в казино. Оператор может работать уже долгие годы, предлагать хорошие бонусы и все условия. Но у него могут быть проблемы с выводами или служба поддержки работает плохо. Обо всем этом можно узнать из отзывов игроков.</p>
+                                <p>У хороших онлайн онлайн заведений отзывы не обязательно должны быть все до единого безупречными. Всегда найдутся игроки, которые остаются недовольны. Это дело вкуса, а иногда проблема недопонимания между сторонами или несогласие игрока с позицией казино. Но все же положительные отзывы должны значительно преобладать. Большое количество негатива со стороны игроков это плохой признак.</p>
+                                <p>Обычно самая важная информация, которую можно получить из отзывов касается выводов. В нормальных казино онлайн с выводом денег не возникает проблем. Только если игроки сами не нарушают правил. Частой проблемой операторов невысокого уровня является не только отказ в выводе, но и намеренное затягивание выводов. Это делается ради того, чтобы игроки за это время успели потратить как можно больше, а может быть и всю сумму, которую они хотели вывести.</p>
+                                <p>Игроки в своих отзывах часто говорят о том, сколько времени у них занимали выводы. Поэтому будет полезно ознакомиться с ними. Важно также то, насколько долго они ждут верификации аккаунта. Это еще один из пунктов, которым плохие операторы пользуются, чтобы задержать выводы. Так что, будьте внимательны, верификация в интернет казино не занимает много времени и отзывы должны это подтвердить.</p>
+                                <h3>Онлайн казино. Наличие лицензии</h3>
+                                <p>Наличие лицензии – это необходимое требование к операторам. На нашем сайте представлены только лицензионные казино. Но нужно также учитывать то, что не все лицензии одинаково хороши. На сегодняшний день одной из наиболее уважаемых считается лицензия Великобритании. Есть еще Олдерни и некоторые другие юрисдикции, но таких относительно мало.</p>
+                                <blockquote>
+                                    <p>Честные игорные заведения обязательно обладают лицензией, и хорошая лицензия это дополнительная защита для игроков.</p>
+                                </blockquote>
+                                <h3>Работа с жалобами игроков</h3>
+                                <p>Нередко бывает, что служба поддержки не может помочь игроку, или стороны по каким-то причинам не могут договориться. Тогда может помочь оформление жалобы на партнерском сайте.</p>
+                                <p>Если у вас остались неразрешенные вопросы или вы не согласны с принятым решением, вы можете написать в <a href="#">раздел жалоб</a>, расположенный в верхнем меню, и объяснить проблему. Эта жалоба будет передана представителям казино, затем должен последовать ответ от них.</p>
+                                <p>Хорошие заведения могут поменять изначальное решение, если оказываются неправы, либо предлагают более приемлемый компромисс. Этим они и отличаются от плохих операторов, которые нередко решают даже не отвечать на жалобы.</p>
+                                <h2>Новые казино в рейтинге</h2>
+                                <p>В отдельной категории на нашем сайте собраны <a href="#">новые онлайн казино</a>. Это специальный рейтинг, в котором отображены только молодые операторы. Тут также выдаются результаты, оптимизированные под страну пользователя.</p>
+                                <p>Новые сайты не обязательно плохие и ненадежные. Но с ними нужно быть осторожнее. Репутация у них еще не сложилась, отзывов мало, поэтому трудно судить о том, насколько они хороши и покажут ли они в будущем высокий уровень, либо скоро закроются. Когда выбираете из молодых операторов, это всегда высокий риск.</p>
+                                <p>Если вы проверили, что оператор надежный и не обманет вас и не будет задерживать выплаты без причины, то все будет зависеть только от ваших предпочтений. Какое онлайн казино подходит именно для вас? Какие у вас предпочтения? Есть разные параметры, по которым вы можете оценивать операторов.</p>
+                                <h3>Разнообразие игр</h3>
+                                <p>На первый взгляд, у всех заведений приблизительно одинаковый набор игр. Отчасти это правда. Но так только кажется тем, у кого нет особых предпочтений на этот счет. Есть десятки поставщиков софта и на каждом сайте предлагается разная подборка разработчиков.</p>
+                                <p>Нельзя сказать, что надежные онлайн казино России должны иметь игры от определенных разработчиков. Все будут решать только ваши предпочтения. Но обычно топовые операторы стараются предоставить как можно более широкий выбор. Самые крупные сайты предлагают тысячи игр.</p>
+                                <p>Если вам важно, чтобы игорные сайты предлагали игры определенного разработчика, перейдите на нашу страницу рейтинга и отметьте в боковом меню в разделе «Программное обеспечение», какие студии обязательны.</p>
+                                <p>Обращайте внимание и на наличие игр разных категорий: карты, настольные, игровые автоматы, бинго, лайв игры. Большинство казино предлагают полный набор игр, но иногда попадаются операторы без лайв дилеров. Поэтому обращайте на это внимание, если вы любите поиграть в игры с реальными дилерами.</p>
+                                <p>Для тех, кто интересуется преимущественно слотами, на нашем сайте предлагаются <a href="#">новые бесплатные игровые автоматы</a>. На этой странице можете запускать любые слоты прямо на сайте Affgambler без регистрации и каких-либо требований, всего 1183 бесплатных игровых автмоатов. Вам будут доступны все самые новые слоты, причем коллекция пополняется практически каждый день.</p>
+                                <h3>Русскоязычная аудитория</h3>
+                                <p>Операторы ориентируются на разные страны. Даже самые крупные мировые бренды имеют свои целевые рынки. Исходя из запросов этих рынков, создаются условия для игры. У российского рынка есть своя специфика, поэтому большинство зарубежных сайтов не подходят. И дело не в отсутствии информации и службы поддержки на русском.</p>
+                                <p>Большую роль в формировании запросов российских игроков сыграло то, что сайты блокируются. Поэтому казино онлайн России должны предоставлять игрокам возможность обойти блокировку. Делается это либо за счет предоставления зеркал, либо допуская игру через VPN или другие программы, которые прячут IP пользователя.</p>
+                                <p>Без всего этого, игроки из России, во-первых, могут просто не зайти на сайт. Во-вторых, даже если оператор еще не заблокирован, в дальнейшем доступ к нему могут закрыть. А в-третьих, если вы захотите скрыть свой реальный IP, мировые онлайн казино бренды, не заточенные под российского игрока, могут вас за это наказать. Ведь у многих из них есть правило, по которому использование VPN запрещено.</p>
+                                <p>Многим игрокам из России удобно пополнять счет в рублях через российские платежные системы. Так что игрокам не придется специально для ставок регистрировать новые платежные методы или пополнять счета в другой валюте. Переходите по этой ссылке, если вам нужны <a href="#">казино на рубли</a>, на данный момент там&nbsp;121 онлайн площадок.</p>
+                                <h2>Бездепозитные бонусы</h2>
+                                <p>Почти каждый оператор предлагает депозитные бонусы. Пополняете счет и получаете подарки. Но есть и те, которые не требуют депозитов, и готовы начислить бонусы просто за регистрацию. Бездепозитые предложения это явление не частое, но вы всегда сможете найти с десяток предложений на нашем сайте. Возможно именно для вас больше всего&nbsp; подходят те, которые предлагают бездепы с выводом денег.</p>
+                                <p>Переходите в раздел <a href="#">бездепозитные бонусы</a>, чтобы просмотреть все имеющиеся предложения. Это тот же самый рейтинг онлайн казино, только теперь он состоит лишь из тех операторов, у которых можно получить бонусы за регистрацию, не пополняя счет. На сайте представлено&nbsp;716 бонусов, из них&nbsp;35 — бездепозитные.</p>
+                                <h2>Черный список</h2>
+                                <p>Помимо рейтинга, на нашем сайте есть <a href="#">черный список казино</a>. Туда добавляются операторы, которые работают без лицензии и предлагают скриптовый софт, либо операторы, замеченные в подозрительных действиях. Черный список регулярно пополняется. Просмотрите его, чтобы знать, какие сайты даже не стоит рассматривать. Конечно, все они называют себя топовыми, но это лишь слова и те, кто им верят, потом жалеют об этом.</p>
+                                <h3>Обсуждения на форуме</h3>
+                                <p>На нашем сайте есть <a href="#">форум игроков с представителями</a>. Там можно найти интересную информацию от операторов, и в общем пообщаться с представителями. Наиболее заинтересованные в поддержании связи с игроками операторы закрепляют своих сотрудников за форумами. А готовность к общению это один из шагов к тому, чтобы попасть в число лучших.</p>
+                                <p>Через форум также удобно следить за новостями казино. Более того, некоторые операторы проводят эксклюзивные акции для участников форума. Так что, заглядывайте в этот раздел почаще. Это может оказаться не только полезным, но и выгодным.</p>
+                                <h3>Дополнительное развлечение: видео и стримы</h3>
+                                <p>Помимо новостей, общения на форуме и бесплатных игр и рейтингов, на сайте Affgambler есть два раздела, которые могут вас заинтересовать. В разделе <a href="#">Видео</a> предлагаются самые интересные ролики азартной тематики. Это не только нарезки из стримов с выигрышами, но и просто интересный контент от стримеров и в некоторых случаях от онлайн казино.</p>
+                                <p>Можете также посмотреть, кто сейчас играет в прямом эфире. Перейдите в раздел <a href="h#">Стримы онлайн</a>. Там отражаются все активные на данный момент стримеры, а ниже выйдет список всех стримеров, которые добавлены на нашем сайте.</p>
+                            </div>
+                        </article>
+                    </div>
+
+                </div>
+                <div class="side-section__sidebar">
+                    <div class="sidebar">
+                        <header class="sidebar__header">
+                            <div class="sidebar__title">Прямой эфир</div>
+                            <button class="sidebar__settings">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 10" id="settings">
+                                    <path d="M0 2V0h2v2H0zm4 0V0h2v2H4zm4 0V0h2v2H8zM0 6V4h2v2H0zm4 0V4h2v2H4zm4 0V4h2v2H8zm-8 4V8h2v2H0zm4 0V8h2v2H4zm4 0V8h2v2H8z"></path>
+                                </svg>Настройки
+                            </button>
+                        </header>
+                        <div class="sidebar-events">
+                            <ul class="sidebar-events__list">
+                                <li>
+                                    <div class="event-link">
+                                        <header>
+                                            <span class="date">Авг. 07, 2019</span>
+                                            <span>Новая Статья</span>
+                                        </header>
+
+                                        <h5><a href="#">Джекпоты Daily Drop от Red Tiger выплатили более £2.5 миллиона</a></h5>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="event-link">
+                                        <header>
+                                            <span class="date">Авг. 07, 2019</span>
+                                            <span>Новая Статья</span>
+                                        </header>
+
+                                        <h5><a href="#">Джекпоты Daily Drop от Red Tiger выплатили более £2.5 миллиона</a></h5>
+                                    </div>
+                                </li>
+                                <li>
+                                    <a href="#" class="sidebar-events__link"><img src="img/TG_Aff.jpg" alt=""></a>
+                                </li>
+                                <li>
+                                    <div class="event-link">
+                                        <header>
+                                            <span class="date">Авг. 07, 2019</span>
+                                            <span>Новая Статья</span>
+                                        </header>
+
+                                        <h5><a href="#">Джекпоты Daily Drop от Red Tiger выплатили более £2.5 миллиона</a></h5>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="event-link">
+                                        <header>
+                                            <span class="date">Авг. 07, 2019</span>
+                                            <span>Новая Статья</span>
+                                        </header>
+
+                                        <h5><a href="#">Джекпоты Daily Drop от Red Tiger выплатили более £2.5 миллиона</a></h5>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="event-link">
+                                        <header>
+                                            <span class="date">Авг. 07, 2019</span>
+                                            <span>Новая Статья</span>
+                                        </header>
+
+                                        <h5><a href="#">Джекпоты Daily Drop от Red Tiger выплатили более £2.5 миллиона</a></h5>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="event-link">
+                                        <header>
+                                            <span class="date">Авг. 07, 2019</span>
+                                            <span>Новая Статья</span>
+                                        </header>
+
+                                        <h5><a href="#">Джекпоты Daily Drop от Red Tiger выплатили более £2.5 миллиона</a></h5>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="event-link">
+                                        <header>
+                                            <span class="date">Авг. 07, 2019</span>
+                                            <span>Новая Статья</span>
+                                        </header>
+
+                                        <h5><a href="#">Джекпоты Daily Drop от Red Tiger выплатили более £2.5 миллиона</a></h5>
+                                    </div>
+                                </li>
+                            </ul>
+                            <a href="#" class="sidebar-events__show-all">Все события</a>
+                        </div>
+                        <div class="sidebar-now-read">
+                            <div class="sidebar__title">Сейчас читают</div>
+                            <ul class="sidebar-now-read__list">
+                                <li><a href="#" title="Как играть в игровые автоматы казино. Все что нужно знать о слотах">Как играть в игровые автоматы казино. Все что нужно знать о слотах</a></li>
+                                <li><a href="#" title="Как играть в игровые автоматы казино. Все что нужно знать о слотах">Как играть в игровые автоматы казино. Все что нужно знать о слотах</a></li>
+                                <li><a href="#" title="Как играть в игровые автоматы казино. Все что нужно знать о слотах">Как играть в игровые автоматы казино. Все что нужно знать о слотах</a></li>
+                                <li><a href="#" title="Как играть в игровые автоматы казино. Все что нужно знать о слотах">Как играть в игровые автоматы казино. Все что нужно знать о слотах</a></li>
+                                <li><a href="#" title="Как играть в игровые автоматы казино. Все что нужно знать о слотах">Как играть в игровые автоматы казино. Все что нужно знать о слотах</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <footer class="footer">
+                <div class="footer-nav">
+                    <ul class="footer-nav__list">
+                        <li class="footer-nav__item">
+                            <div class="footer-nav__title">Лучшие бонусы казино</div>
+                            <ul>
+                                <li><a href="#">Приветственные бонусы</a></li>
+                                <li><a href="#">Приветственные бонусы</a></li>
+                                <li><a href="#">Приветственные бонусы</a></li>
+                                <li><a href="#">Приветственные бонусы</a></li>
+                                <li><a href="#">Приветственные бонусы</a></li>
+                            </ul>
+                        </li>
+                        <li class="footer-nav__item">
+                            <div class="footer-nav__title">Лучшие бонусы казино</div>
+                            <ul>
+                                <li><a href="#">Приветственные бонусы</a></li>
+                                <li><a href="#">Приветственные бонусы</a></li>
+                                <li><a href="#">Приветственные бонусы</a></li>
+                                <li><a href="#">Приветственные бонусы</a></li>
+                                <li><a href="#">Приветственные бонусы</a></li>
+                            </ul>
+                        </li>
+                        <li class="footer-nav__item">
+                            <div class="footer-nav__title">Лучшие бонусы казино</div>
+                            <ul>
+                                <li><a href="#">Приветственные бонусы</a></li>
+                                <li><a href="#">Приветственные бонусы</a></li>
+                                <li><a href="#">Приветственные бонусы</a></li>
+                                <li><a href="#">Приветственные бонусы</a></li>
+                                <li><a href="#">Приветственные бонусы</a></li>
+                            </ul>
+                        </li>
+                        <li class="footer-nav__item">
+                            <div class="footer-nav__title">Лучшие бонусы казино</div>
+                            <ul>
+                                <li><a href="#">Приветственные бонусы</a></li>
+                                <li><a href="#">Приветственные бонусы</a></li>
+                                <li><a href="#">Приветственные бонусы</a></li>
+                                <li><a href="#">Приветственные бонусы</a></li>
+                                <li><a href="#">Приветственные бонусы</a></li>
+                            </ul>
+                        </li>
+                        <li class="footer-nav__item footer-nav__item--count">
+                            <div class="footer-nav__title">Лучшие бонусы казино</div>
+                            <ul>
+                                <li><a href="#"><span class="footer-nav__count">3</span> Приветственные бонусы</a></li>
+                                <li><a href="#"><span class="footer-nav__count">2123</span> Приветственные бонусы</a></li>
+                                <li><a href="#"><span class="footer-nav__count">23</span> Приветственные бонусы</a></li>
+                                <li><a href="#"><span class="footer-nav__count">21113</span> Приветственные бонусы</a></li>
+                                <li><a href="#"><span class="footer-nav__count">23</span> Приветственные бонусы</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <p class="footer__copyright">Copyright © 2015-2019 Affgambler.appspot.com. Все права защищены. </p>
+            </footer>
+        </div>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
